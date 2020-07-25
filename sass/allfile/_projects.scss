@@ -1,0 +1,52 @@
+.project{
+    width: 100%;
+    margin-bottom: 120px;
+    .project-head h1{
+        @include mainheader;
+        margin-bottom: 60px;
+    }
+
+    .project-img{
+        margin: 30px auto;
+        width: 1140px;
+        display: flex;
+
+        .project-img1{
+            width: 66.66%;
+
+            img{
+                width: 730px;
+            }
+        }
+
+        .project-img2{
+            width: 33.33%;
+
+            img{
+                width: 350px;
+            }
+        }
+    }
+
+    .project-img-second{
+        width: 1140px;
+        margin: 30px auto;
+        display: flex;
+        
+        .project-img3{
+            width: 50%;
+
+            img{
+                width: 540px;
+            }
+        }
+
+        .project-img4{
+            width: 50%;
+
+            img{
+                width: 540px;
+            }
+        }
+    }
+}
